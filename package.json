@@ -51,10 +51,10 @@
   },
   "scripts": {
     "start": "concurrently \"npm run start-server\" \"npm run start-front\" --kill-others --kill-others-on-fail",
-    "start-front": "react-app-rewired start",
+    "start-front": "react-scripts start",
     "start-server": "node server/index.js",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
